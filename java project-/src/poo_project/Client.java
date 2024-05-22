@@ -39,65 +39,65 @@ public class Client {
 		
 	}
 
-	private int getId_immobilier() {
+	public int getId_immobilier() {
 		return Id_immobilier;
 	}
-	private void setId_immobilier(int id_immobilier) {
+	public void setId_immobilier(int id_immobilier) {
 		Id_immobilier = id_immobilier;
 	}
-	private int getPrix() {
+	public int getPrix() {
 		return Prix;
 	}
 
-	private void setPrix(int Prix) {
+	public void setPrix(int Prix) {
 		this.Prix = Prix;
 	}
 
-	private int getBudjet() {
+	public int getBudjet() {
 		return budjet;
 	}
 
-	private void setBudjet(int budjet) {
+	public void setBudjet(int budjet) {
 		this.budjet = budjet;
 	}
 
-	private char getType() {
+	public char getType() {
 		return type;
 	}
 
-	private void setType(char type) {
+	public void setType(char type) {
 		this.type = type;
 	}
 
-	private String getNom() {
+	public String getNom() {
 		return nom;
 	}
 
-	private void setNom(String nom) {
+	public void setNom(String nom) {
 		this.nom = nom;
 	}
 
-	private String getPrenom() {
+	public String getPrenom() {
 		return prenom;
 	}
 
-	private void setPrenom(String prenom) {
+	public void setPrenom(String prenom) {
 		this.prenom = prenom;
 	}
 
-	private String getNumber_phone() {
+	public String getNumber_phone() {
 		return number_phone;
 	}
 
-	private void setNumber_phone(String number_phone) {
+	public void setNumber_phone(String number_phone) {
 		this.number_phone = number_phone;
 	}
 
-	private int getId_client() {
+	public int getId_client() {
 		return id_client;
 	}
 
-	private void setId_client(int id_client) {
+public void setId_client(int id_client) {
 		this.id_client = id_client;
 	}
 
@@ -105,11 +105,11 @@ public class Client {
 	
 
 	
-	 protected static int getId() {
+	public static int getId() {
 		return id;
 	}
 
-	protected static void setId(int id) {
+	public static void setId(int id) {
 		Client.id = id;
 	}
 
